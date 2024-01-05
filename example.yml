@@ -1,0 +1,16 @@
+- name: just say hii
+  hosts: all
+  tasks:
+    - name: say hii
+      ansible.builtin.debug:
+        msg: hii
+
+- name: just say hello
+  hosts: all
+  tasks:
+    -name: say hello
+    ansible.builtin.debug:
+      msg: hello
+
+
+
