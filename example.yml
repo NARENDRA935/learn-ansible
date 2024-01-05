@@ -8,9 +8,11 @@
 - name: just say hello
   hosts: all
   tasks:
-    -name: say hello
-    ansible.builtin.debug:
-      msg: hello
+    - name: say hello
+      ansible.builtin.debug:
+        msg: hell
+
+
 
 
 
