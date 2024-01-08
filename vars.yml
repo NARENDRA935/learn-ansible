@@ -7,5 +7,11 @@
       ansible.builtin.debug:
         msg: url = {{ url }}
 
+    - name: print variable declere the tasks
+      vars:
+        url: task.google.com
+      ansible.builtin.debug:
+        msg: url = {{ url }}
+
   roles:
     - demo
