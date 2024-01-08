@@ -7,4 +7,5 @@
       ansible.builtin.debug:
         msg: url = {{ url }}
 
-  roles: demo
+  roles:
+    - demo
