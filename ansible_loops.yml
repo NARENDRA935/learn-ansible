@@ -3,10 +3,8 @@
   tasks:
     - name: loop demo
       ansible.builtin.debug:
-        msg: hello, "{{ item }}"
+        msg: hello, "{{ item.name }}", age of yours is "{{ item.age }}" years.
       loop:
-        - ram
-        - jhon
-        - sai
-        - steve
-        - kumar
+        - { name: "nare" , age: 20}
+        - { name: "ram" , age: 30}
+        - { name: "siva" , age: 40}
