@@ -8,3 +8,12 @@
         - { name: "nare" , age: 20}
         - { name: "ram" , age: 30}
         - { name: "siva" , age: 40}
+    - name: loop demo
+      ansible.builtin.debug:
+        msg: hii, "{{ item }}"
+      loop:
+          - ram
+          - nare
+          - sai
+
+
