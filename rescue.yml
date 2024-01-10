@@ -1,5 +1,5 @@
 - name: demo rescue
-  host: localhost
+  hosts: localhost
   tasks:
     - name: block
       block:
