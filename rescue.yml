@@ -7,7 +7,6 @@
           ansible.builtin.shell: exit 1
           ignore_errors: yes
       rescue:
-        - name: say hii
+        - name: say hello
           ansible.builtin.debug:
-            msg: hai
-
+            msg: hii
