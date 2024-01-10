@@ -1,5 +1,5 @@
 - name: demo handlers
-  hosts: localhosts
+  hosts: localhost
   tasks:
     - name: copy sample
       ansible.builtin.template:
