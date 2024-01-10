@@ -5,7 +5,7 @@
       block:
         - name: run shell command
           ansible.builtin.shell: exit 1
-          ignore_errors: yes
+
 
       rescue:
         - name: hey hello
