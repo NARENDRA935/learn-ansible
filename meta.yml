@@ -1,4 +1,4 @@
 - name: demo meta
-  hosts: local host
+  hosts: localhost
   roles:
     - nginx
