@@ -10,3 +10,4 @@
         - name: say hii
           ansible.builtin.debug:
             msg: hai
+
