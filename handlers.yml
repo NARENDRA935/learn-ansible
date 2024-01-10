@@ -6,7 +6,7 @@
         src: sample.txt
         dest: /tmp/sample.txt
 
-      handlers:
+  handlers:
         - name: say hello
           ansible.builtin.debug:
             msg: hello {{ name }} again !!
