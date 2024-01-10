@@ -1,0 +1,7 @@
+- name: demo ignore
+  hosts: localhost
+  tasks:
+    - name: say hii
+      ansible.builtin.debug:
+        msg: hai
+
